@@ -109,7 +109,7 @@ main{
     position: absolute;
     z-index: 1000;
     top: 25%;
-    left: 10%;
+    left: 8%;
 }
 .homeHero-info h1{
     font-size: 6rem;
@@ -187,7 +187,7 @@ main{
 .yogaImportant{
     position: relative;
     margin-top: 180px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .yogaImportant-title{
     display: flex;
@@ -242,3 +242,55 @@ main{
     text-align: center;
 }
 /* -------------- /yogaImportant-style ------------------ */
+
+/* -------------- offer-style ------------------ */
+.offer{
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.offer-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 80px;
+    justify-items: center;
+    align-items: center;
+}
+.offerLeft h2{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--dark-gray);
+}
+.offerLeft h2 span{
+    color: var(--primary);
+}
+.offerLeft p{
+    padding: 20px 0;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-family: var(--latoSan);
+    color: var(--gray);
+    padding-bottom: 30px;
+}
+.offer-btn{
+    font-size: 1.6rem;
+    padding: 12px 30px;
+    color: var(--light-gray);
+    background-color: var(--aquamarine);
+    font-family: var(--latoSan);
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+.offer-btn:hover{
+    border: 1px solid var(--aquamarine);
+    background-color: transparent;
+    color: var(--aquamarine);
+}
+.offerRight{
+    width: 90%;
+}
+.offerRight img{
+    border-radius: 30px;
+}
+/* -------------- /offer-style ------------------ */
