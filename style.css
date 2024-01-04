@@ -270,10 +270,13 @@ main{
 .offerLeft p{
     padding: 20px 0;
     font-size: 1.4rem;
-    line-height: 1.4;
+    font-weight: 400;
+    line-height: 1.6;
     font-family: var(--latoSan);
     color: var(--gray);
     padding-bottom: 30px;
+    color: var(--gray);
+    font-family: var(--latoSan);
 }
 .offer-btn{
     font-size: 1.6rem;
@@ -297,3 +300,63 @@ main{
     border-radius: 30px;
 }
 /* -------------- /offer-style ------------------ */
+
+/* -------------- homeTeam-style ------------------ */
+.homeTeam{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.homeTeam-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeTeam-title h2{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--dark-gray);
+}
+.homeTeam-title h2 span{
+    color: var(--primary);
+}
+.homeTeam-title p{
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: var(--latoSan);
+    color: var(--dark-gray);
+    width: 38%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.homeTeam-container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.homeTeam-img img{
+    border-radius: 30px;
+}
+.homeTeam-info{
+    padding-top: 20px;
+}
+.homeTeam-info h3{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--primary);
+    padding-bottom: 10px;
+}
+.homeTeam-info p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--gray);
+    font-family: var(--latoSan);
+    padding-bottom: 10px;
+}
+/* -------------- /homeTeam-style ------------------ */
+
